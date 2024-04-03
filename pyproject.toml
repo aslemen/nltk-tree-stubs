@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nltk-tree-stubs"
+version = "3.7.0.1.0"
+description = "Type stubs for nltk.tree"
+authors = ["Nori Hayashi <net@hayashi-lin.net>"]
+readme = "README.md"
+packages = [
+    { include = "nltk-stubs" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
